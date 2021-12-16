@@ -1,0 +1,115 @@
+@media only screen and (min-width: 450px) {
+  .logo-container {
+    margin-left: 25px;
+}
+
+nav {
+    height: 45px;
+    background-color: transparent; 
+}
+
+.hamburger-btn {
+    display: none;
+}
+
+.nav-list {
+    position: relative;
+    height: 100px;
+    top: 0; 
+    background: none;
+    float: right;
+    text-align: right;
+    margin-right: 25px;
+    transition: none;
+}
+
+.nav-list li {
+    display: inline-block;
+    opacity: 1;
+    line-height: 100px;
+    margin: 0 20px;
+    transition: none;
+}
+
+.nav-list li a.active, .nav-list li a:hover {
+    color: #00bf9f;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 45%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.content{
+  position: absolute;
+  top: 45%;
+  left: 46%;
+  transform: translateY(-50%);
+}
+.content h1{
+  font-size: 4rem;
+  color: #262728;
+  line-height: 4rem;
+  margin-bottom: 1.5rem;
+}
+.content h3{
+  color: #00bf9f;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1.5rem;
+}
+.content p{
+  font-size: 0.8rem;
+  color: #585858;
+  line-height: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+button{
+  background: #262728;
+  border: 0.2rem solid transparent;
+  padding: 0.5rem 1.2rem;
+  border-radius: 2.5rem;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  line-height: 1.4rem;
+  margin-bottom: 1rem;
+}
+button:hover{
+  transform: scale(1.1);
+  transition: .3s;
+  cursor: pointer;
+}
+
+.countdown{
+  position: absolute;
+  top: 80%;
+  left: 46%;
+  transform: translateY(-50%);
+}
+.countdown h3{
+  color: #262728;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+.countdown p{
+  color: #00bf9f;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.countdown t {
+  color: #585858;
+  font-size: 0.9rem;
+  letter-spacing: 0rem;
+}
+}
